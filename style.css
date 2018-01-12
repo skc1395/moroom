@@ -1,9 +1,6 @@
 <style>
 /* 폰트 적용 안되는 중*/
-  @font-face{
-    font-family: Godo;
-    src: url('godoMaum.ttf');
-  }
+
   *, html {
     margin:0;
     padding:0;
@@ -11,10 +8,7 @@
   body {
     margin: 0;
     padding: 0;
-    background: #EAEAEA;
-    background-image: url("sophia-baboolal-86214.png");
-    background-size: 100%;
-    background-position: center;
+    background: #ffffff;
     font-family: Godo;
   }
   h1 {
@@ -27,6 +21,11 @@
   a {
     color:black;
     text-decoration:none;
+  }
+  #background_1 {
+    background-image: url("sophia-baboolal-86214.png");
+    background-size: 100%;
+    background-position: center;
   }
 
   #list ol li {
@@ -51,6 +50,7 @@
     display: grid;
     grid-template-columns: 150px 1fr;
     background: #FFFFFF;
+    font-family: ng;
   }
   #grid #article{
     padding-left: 25px;
@@ -65,5 +65,13 @@
     h1 {
       border-bottom: none;
     }
+  }
+  @font-face{
+    font-family: Godo;
+    src: url('GodoM.otf');
+  }
+  @font-face{
+    font-family: ng;
+    src: url('NanumGothic.otf');
   }
 </style>
